@@ -3,11 +3,11 @@ package main.java;
 import java.util.ArrayList;
 import java.util.List;
 
-public class InventoryMgm {
+public class InventoryManagement {
 
     public static void main(String[] args){
 
-        List<Product> productList = new ArrayList<Product>();
+        ArrayList<Product> productList = new ArrayList<Product>();
         productList.add(new Product(100, 1, 2));
         productList.add(new Product(100, 2, 3));
         productList.add(new Product(89, 3, 7));
