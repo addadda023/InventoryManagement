@@ -1,5 +1,9 @@
 package main.java;
 
+/**
+ * Class associated with Product
+ */
+
 public class Product {
     private double price;
     private int id;
